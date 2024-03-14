@@ -24,7 +24,13 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-### 5. Start Application
+### 5. Build Application
+
+```
+npm run build
+```
+
+### 6. Start Application
 
 ```
 php artisan serve
