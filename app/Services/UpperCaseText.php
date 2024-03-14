@@ -16,6 +16,11 @@ class UpperCaseText implements TextFormatInterface
         $this->text = $text;
     }
 
+    /**
+     * Transform the text to uppercase
+     *
+     * @return string
+     */
     public function output(): string
     {
         return strtoupper($this->text);

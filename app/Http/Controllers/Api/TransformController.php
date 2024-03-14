@@ -50,8 +50,7 @@ class TransformController extends Controller
         } catch (\Exception $e) {
             return $this->errorResponse(
                 [
-                    // 'message' => 'An error occurred while processing the request. Please try again.'
-                    'message' => $e->getMessage()
+                    'message' => 'An error occurred while processing the request. Please try again.'
                 ],
                 Response::HTTP_INTERNAL_SERVER_ERROR
             );
